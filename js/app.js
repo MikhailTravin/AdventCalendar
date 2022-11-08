@@ -20,7 +20,7 @@
             wrapper.classList.add("_active");
             setTimeout((function() {
                 document.documentElement.classList.add("loaded");
-            }), 3e3);
+            }), 4e3);
             preloader.classList.add("_active");
         }));
     }
