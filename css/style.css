@@ -120,9 +120,9 @@ html::-webkit-scrollbar {
   -webkit-animation: snow 20s linear infinite;
           animation: snow 20s linear infinite;
   opacity: 0;
-  -webkit-transition: opacity 2s ease 3s;
-  -o-transition: opacity 2s ease 3s;
-  transition: opacity 2s ease 3s;
+  -webkit-transition: opacity 2s ease 0s;
+  -o-transition: opacity 2s ease 0s;
+  transition: opacity 2s ease 0s;
 }
 
 .wrapper._active {
